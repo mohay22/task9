@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         LocalBroadcastManager.getInstance(this).unregisterReceiver(locationReceiver);
         Log.d("MainActivity", "onDestroy called");
     }
-}r
+}
 
 
 
