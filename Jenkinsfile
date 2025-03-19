@@ -54,7 +54,7 @@ pipeline {
                 """
             )
         }
-         failure {
+        failure {
             // Email notification on failure
             emailext (
                 subject: "FAILURE: ${env.JOB_NAME} Build #${env.BUILD_NUMBER}",
