@@ -23,6 +23,6 @@ sonarqube {
     properties {
         property 'sonar.projectKey', 'task9'
         property 'sonar.host.url', 'http://localhost:9000'
-        property 'sonar.token', 'sqp_92b52f4c370b841cd3415826b33e7ebb7df76c41'
+        property 'sonar.token', 'sqp_02486e12fa421c57487b5d2ed4e5bf605fcc12df'
     }
 }
